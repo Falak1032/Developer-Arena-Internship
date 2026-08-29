@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="login.php">
+        <h1>Registration form</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+        <h2>Choose your class</h2>
+        <label for="1">
+            <input type="radio" value="class XI" name="class" id="1">class XI
+        </label><br>
+        <label for="2">
+            <input type="radio" value="class XII" name="class" id="2">class XII
+        </label><br><br>
+        <h2>Choose your subject</h2>
+        <label for="maths">
+            <input type="checkbox" value="maths" name="subject" id="maths">Maths
+        </label>
+        <label for="science">
+            <input type="checkbox" value="science" name="subject" id="science">Science
+        </label>
+        <label for="english">
+            <input type="checkbox" value="english" name="subject" id="english">English
+        </label>
+        <label for="computer science">
+            <input type="checkbox" value="computer science" name="subject" id="computer science">Computer Science
+        </label><br><br>
+        <select name="country" id="country">
+            <option value="">Select your country</option>
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Nepal">Nepal</option>
+        </select><br><br>
+        <textarea name="message" rows="5" cols="30" placeholder="Enter your message here"></textarea><br><br>
+        <pre>            
+                       <input type="submit" value="Submit">
+        </pre>
+    </form> 
+    <br>
+    <h3>Video</h3>
+    <iframe width="360" height="315" src="https://www.youtube.com/embed/yRpLlJmRo2w?si=QhvGReleQUPuFv9H" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <br>
+    <video width="320" height="240" controls loop zoom in>
+        <source src="video.mp4" type="video/mp4"> 
+        Your browser does not support the video tag.
+    </video>
+    <br>
+        <ul>
+            <li>Video 1: Introduction to Web Development</li>
+            <li>Video 2: HTML Basics</li>
+        </ul>
+        <br>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <br>
+        <ol>
+            <li>Audio 1: Introduction to Web Development</li>
+            <li>Audio 2: HTML Basics</li>
+        </ol>
+</body>
+</html> 
