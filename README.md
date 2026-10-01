@@ -1,31 +1,137 @@
-# Developer Arena Internship Project
+# Falak - Personal Portfolio Website
 
-## Project Overview
+## About the Project
 
-This project is a personal portfolio website developed as part of the Developer Arena internship project. The website presents information about the developer, including education, experience, projects, and other relevant details.
+This is my personal portfolio website created as part of my Developers Arena Web Development Internship.
 
-## Objectives
-
-- Create a simple personal portfolio website.
-- Organize personal and academic information into different sections.
-- Practice creating webpages using HTML.
-- Learn how to manage a web project using GitHub.
-- Develop a structured and user-friendly website.
+The website presents my education, experience, projects, skills, and contact information in a clean and responsive design.
 
 ## Technologies Used
 
 - HTML5
-- Git
-- GitHub
+- CSS3
+- Responsive Web Design
+- Flexbox
+- CSS Grid
+
+## Website Pages
+
+- Home
+- Education
+- Experience
+- Projects
+- Contact
+
+## CSS Concepts Used
+
+### 1. External CSS
+
+The website uses an external `style.css` file linked to the HTML pages.
+
+### 2. CSS Selectors
+
+Different types of CSS selectors are used, including:
+
+- Element selectors
+- Class selectors
+- ID selectors
+- Pseudo-classes such as `:hover`, `:focus`, and `:last-child`
+
+### 3. Flexbox
+
+Flexbox is used for:
+
+- Navigation layout
+- Hero section
+- Buttons
+- Responsive alignment
+
+### 4. CSS Grid
+
+CSS Grid is used to create the portfolio card layout.
+
+### 5. Hover Effects
+
+Hover effects have been added to buttons, navigation links, portfolio cards, and other interactive elements.
+
+### 6. Forms
+
+The contact page contains a styled contact form with fields for:
+
+- Name
+- Email
+- Subject
+- Message
+
+### 7. Images
+
+The home page includes a profile image styled with CSS for a clean portfolio presentation.
+
+## Responsive Design
+
+The website is designed to work on different screen sizes.
+
+Media queries are used to adapt the layout for:
+
+- Desktop
+- Tablet
+- Mobile devices
+
+The navigation links, hero section, buttons, images, and portfolio cards adjust according to the screen size.
+
+## Design Decisions
+
+The website uses a simple and modern visual style with:
+
+- Blue accent colors
+- White cards
+- Light backgrounds
+- Rounded corners
+- Subtle shadows
+- Consistent spacing
+- Hover animations
+
+The goal was to create a portfolio that is simple to navigate while still looking professional and visually appealing.
+
+## Testing
+
+The website was tested on desktop and mobile screen sizes.
+
+The following were checked:
+
+- Navigation links
+- Page layouts
+- Buttons
+- Contact form
+- Images
+- Responsive design
+- Hover effects
+- Mobile layout
+
+Screenshots of the website are included in the `screenshots` folder.
+
+## Screenshots
+
+The project contains screenshots showing the website on different pages and screen sizes.
 
 ## Project Structure
 
 ```text
-Developer-Arena-Internship/
+PORTFOLIO/
 │
 ├── index.html
 ├── Education.html
 ├── Experience.html
 ├── Projects.html
 ├── Login Form.html
-└── falakkkk.jpg
+├── style.css
+├── falak-portfolio.png
+├── README.md
+│
+└── screenshots/
+    ├── home-desktop.png
+    ├── home-mobile.png
+    ├── education.png
+    ├── experience.png
+    ├── projects.png
+    └── contact.png
